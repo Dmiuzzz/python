@@ -1,9 +1,4 @@
-a = 7
-print(a)
-b = 'Первое задание'
-print(b)
-c = 12.7
-print(c)
-print('Введите сначала делимое затем делитель')
-d = int(input()) // int(input())
-print(d)
+list = ['q', 1, 0.7, True]
+x = 0
+for x in list:
+    print(type(x))
